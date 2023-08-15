@@ -8,14 +8,14 @@
   },
   "categories": [
     "Other"
-  ],
+  ], 
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "sqashmaster.helloWorld",
-        "title": "Hello World"
+        "command": "sqashmaster.squashCommits",
+        "title": "Squash Commits"
       }
     ]
   },
