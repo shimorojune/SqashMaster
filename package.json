@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.81.0"
   },
+  "publisher": "rohitraj-rraj",
   "categories": [
     "Other"
   ],
