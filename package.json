@@ -19,6 +19,7 @@
       }
     ]
   },
+  "repository": "https://github.com/shimorojune/SqashMaster.git",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
