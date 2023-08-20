@@ -1,14 +1,14 @@
 {
   "name": "sqashmaster",
   "displayName": "SqashMaster",
-  "description": "Tool to help users sqash \"n\" previous commits into one commit",
-  "version": "0.0.1",
+  "description": "Tool to help users sqash consecutive previous commits into one commit",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.81.0"
   },
   "categories": [
     "Other"
-  ], 
+  ],
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
