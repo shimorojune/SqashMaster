@@ -2,8 +2,6 @@
 
 ![Logo](https://github.com/shimorojune/SqashMaster/blob/main/assets/images/transparent-logo.png?raw=true)
 
-<br />
-
 # SquashMaster
 
 Extension to help quickly and reliably squash consecutive commits into one commit to improve commit history readability for features and bugs.
