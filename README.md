@@ -18,4 +18,12 @@ Features and bugs usually introduce multiple commits during the development proc
 
 Initial release of extension with the ability to squash commits, and force push to remote repositories.
 
-**Live long and prosper - without stale branches now!**
+### 1.0.3
+
+Fixed logo and README
+
+### 1.0.5
+
+Fixed README logo poster
+
+**Live long and prosper - with squashed commits**
