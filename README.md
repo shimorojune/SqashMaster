@@ -1,5 +1,7 @@
 <br />
 
+![Logo](https://github.com/shimorojune/SqashMaster/blob/main/assets/images/transparent-logo.png?raw=true)
+
 <br />
 
 # SquashMaster
