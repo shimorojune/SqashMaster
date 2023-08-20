@@ -11,11 +11,3 @@ Features and bugs usually introduce multiple commits during the development proc
 
 - Squash "n" consecutive commits without dealing with soft resets.
 - Automate the process of force updating remote repository or publishing new repositories post-squash.
-
-## Release Notes
-
-### 1.0.0
-
-Initial release of extension with the ability to squash commits, and force push to remote repositories.
-
-**Live long and prosper - without stale branches now!**

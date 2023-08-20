@@ -1,11 +1,13 @@
 {
   "name": "sqashmaster",
+  "icon": "assets/images/small-transparent-logo.png",
   "displayName": "SqashMaster",
   "description": "Tool to help users sqash consecutive previous commits into one commit",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "engines": {
     "vscode": "^1.81.0"
   },
+  "publisher": "rohitraj-rraj",
   "categories": [
     "Other"
   ],
@@ -19,6 +21,7 @@
       }
     ]
   },
+  "repository": "https://github.com/shimorojune/SqashMaster.git",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
