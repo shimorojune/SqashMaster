@@ -11,3 +11,13 @@ Features and bugs usually introduce multiple commits during the development proc
 
 - Squash "n" consecutive commits without dealing with soft resets.
 - Automate the process of force updating remote repository or publishing new repositories post-squash.
+
+## How to use
+
+1. Install the extension.
+2. Open command palette (`F1` key by default) and type `Squash Commits`.
+3. List of all commits for current workspace would open up. Choose the commit upto which the squash operation has to be performed.
+4. Enter the squashed commit message.
+5. Squash process will initiate and complete, with notification asking if the changes should be force pushed to remote of current branch.
+
+## Demo
