@@ -1,9 +1,9 @@
 {
-  "name": "sqashmaster",
+  "name": "squashmaster",
   "icon": "assets/images/small-transparent-logo.png",
-  "displayName": "SqashMaster",
+  "displayName": "SquashMaster",
   "description": "Tool to help users sqash consecutive previous commits into one commit",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "engines": {
     "vscode": "^1.81.0"
   },
