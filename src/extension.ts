@@ -73,13 +73,16 @@ const squashCommandCallback = async () => {
   let commitQuickPickItems: vscode.QuickPickItem[] = [];
 
   // getting list of commits
-  await vscode.window.withProgress({
-    cancellable: false,
-    location: vscode.ProgressLocation.Notification,
-    title: "Fetching your commits..."
-  }, async () => {
-    commitQuickPickItems = await getCommitQuickPickItems(repoPath);
-  });
+  await vscode.window.withProgress(
+    {
+      cancellable: false,
+      location: vscode.ProgressLocation.Notification,
+      title: "Fetching your commits...",
+    },
+    async () => {
+      commitQuickPickItems = await getCommitQuickPickItems(repoPath);
+    }
+  );
 
   // commit list guard
   if (commitQuickPickItems.length > 1) {
@@ -113,13 +116,15 @@ const squashCommandCallback = async () => {
           value: commitQuickPickItems[0].label,
         });
 
-        // performing squash using rebase
-        squashProcessing({
-          repoPath,
-          indexOfFeatureStartCommitItem,
-          commitQuickPickItems,
-          squashedCommitMessage,
-        });
+        if (!!squashedCommitMessage) {
+          // performing squash using rebase
+          squashProcessing({
+            repoPath,
+            indexOfFeatureStartCommitItem,
+            commitQuickPickItems,
+            squashedCommitMessage,
+          });
+        }
       } else {
         vscode.window.showErrorMessage("Insufficient commits to squash");
         return;
