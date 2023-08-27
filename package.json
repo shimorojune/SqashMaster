@@ -3,7 +3,7 @@
   "icon": "assets/images/small-transparent-logo.png",
   "displayName": "SquashMaster",
   "description": "Tool to help users sqash consecutive previous commits into one commit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "engines": {
     "vscode": "^1.81.0"
   },
