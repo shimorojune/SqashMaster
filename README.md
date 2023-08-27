@@ -21,3 +21,5 @@ Features and bugs usually introduce multiple commits during the development proc
 5. Squash process will initiate and complete, with notification asking if the changes should be force pushed to remote of current branch.
 
 ## Demo
+
+![Demo](https://github.com/shimorojune/SqashMaster/blob/main/assets/animations/demo1.gif?raw=true)
